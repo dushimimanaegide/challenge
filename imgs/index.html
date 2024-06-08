@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/kanit-2" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="photo" onmouseover="applyHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+        <img src="./imgs/img11.png" alt="" data-description = "This is a FENNEC fox found in India." />
+        <div class="caption">
+          <div class="up">
+            <h1>FENNEC <br> FOX</h1>
+            <p class="country">India</p>
+          </div>
+            <p class="more" onclick="showMore(this)">Know more <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+      <div class="photo" onmouseover="applyHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+        <img src="./imgs/img22.png" alt="" data-description = "This is a HUMPBACK WHALE found in South Africa "/>
+        <div class="caption">
+          <div class="up">
+            <h1>HUMPBACK <br> WHALE</h1>
+            <p class="country">South Africa</p>
+          </div>
+            <p class="more" onclick="showMore(this)">Know more <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+      <div class="photo" onmouseover="applyHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+        <img src="./imgs/Img33.png" alt="" data-description = "This is COMMON BROWN found in South Africa"/>
+        <div class="caption">
+          <div class="up">
+            <h1>COMMON BROWN<br> BABOON</h1>
+            <p class="country">South Africa</p>
+          </div>
+            <p class="more" onclick="showMore(this)">Know more <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+      <div class="photo" onmouseover="applyHoverStyle(this)" onmouseout="removeHoverStyle(this)">
+        <img src="./imgs/Img44.png" alt="" data-description = "This is SPOTTED DEER found in South Africa"/>
+        <div class="caption">
+          <div class="up">
+            <h1>SPOTTED <br> DEER</h1>
+            <p class="country">Amazon</p>
+          </div>
+            <p class="more" onclick="showMore(this)">Know more <i class="fa-solid fa-arrow-right"></i></p>
+        </div>
+      </div>
+    </div>
+    <div id="singleImage-container" class="singleImage" style="display: none;">
+      <span class="close" onclick="closeSingleImage()"><i class="fa-solid fa-x"></i></span>
+      <img id="singleImage" src="" alt="">
+      <div id="description" class="description"></div>
+    </div>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
+

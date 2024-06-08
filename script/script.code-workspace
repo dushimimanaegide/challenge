@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "script",
+			"path": "."
+		},
+		{
+			"name": "challenge",
+			"path": "../../challenge"
+		},
+		{
+			"name": "css",
+			"path": "../css"
+		},
+		{
+			"name": "imgs",
+			"path": "../imgs"
+		}
+	],
+	"settings": {}
+}
